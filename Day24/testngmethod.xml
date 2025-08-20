@@ -1,0 +1,9 @@
+<suite name="ParallelSuite" parallel="methods" thread-count="1">
+    <test name="ParallelMethods">
+    <parameter name="username" value="prath-32" />
+    <parameter name="password" value="Prathamesh13" />
+        <classes>
+            <class name="Testng_package.Ebay_excel_login_test"/>     
+        </classes>
+    </test>
+</suite>
